@@ -1,0 +1,55 @@
+.servicepicdiv{
+    background:#fff;
+}
+.servicepicdiv a{
+    color:#333
+    text-decoration:none;
+    }
+.servicepicdiv a:hover{
+    color: #036;
+    text-decoration:none;
+    }
+.servicepicdiv a:link {text-decoration:none;color:#333;}
+.servicepicdiv a:visited {text-decoration:none;color:#ff0000;}
+.servicepicdiv a:hover {text-decoration:underline;color:#ff0000;}
+.servicepicdiv a:active {text-decoration:underline;}
+.servicepicdiv .box_title{
+    width:100%;
+    height:30px;
+    float:left;
+    line-height:20px;}
+.servicepicdiv .box_title_txt{
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+    margin-top:9px;
+    margin-left:5.07%;
+    color:#000;
+    }   
+.servicepicdiv .icon{
+    width:19.14%;
+    float:right;
+    margin-top:9px;
+    margin-right:10px;}
+.servicepicdiv .icon a{
+    display:block;
+    float:right;
+    width:17px;
+    height:14px;
+    margin-right:3px;
+    }
+.servicepicdiv .icon a.refresh{
+    background:url(../images/refresh_off.gif) no-repeat top center;}
+.servicepicdiv .icon a:hover.refresh{
+    background:url(../images/refresh_on.gif) no-repeat top center;}
+.servicepicdiv .icon a.update{
+    background:url(../images/update_off.gif) no-repeat top center;}
+.servicepicdiv .icon a:hover.update{
+    background:url(../images/update_on.gif) no-repeat top center;}  
+.servicepicdiv .icon a.notice{
+    display:block;
+    background:url(../images/notice_off.png) no-repeat;
+    }
+.servicepicdiv .icon a:hover.notice{
+    background:url(../images/notice_on.png) no-repeat;
+    }

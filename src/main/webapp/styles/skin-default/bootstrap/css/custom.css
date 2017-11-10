@@ -1,0 +1,198 @@
+/* Button CSS */
+.btn-custom {
+  font-family: "微软雅黑";
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+.btn-custom:active,
+.btn-custom.active,
+.open > .dropdown-toggle.btn-custom {
+  background-image: none;
+}
+.btn-custom.disabled,
+.btn-custom[disabled],
+fieldset[disabled] .btn-custom,
+.btn-custom.disabled:hover,
+.btn-custom[disabled]:hover,
+fieldset[disabled] .btn-custom:hover,
+.btn-custom.disabled:focus,
+.btn-custom[disabled]:focus,
+fieldset[disabled] .btn-custom:focus,
+.btn-custom.disabled.focus,
+.btn-custom[disabled].focus,
+fieldset[disabled] .btn-custom.focus,
+.btn-custom.disabled:active,
+.btn-custom[disabled]:active,
+fieldset[disabled] .btn-custom:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-custom .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+
+.btn-confirm {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat 5px;
+}
+
+.btn-add {
+  background:#428bca url(../../customui/images/c_yellow.gif) no-repeat left;
+}
+
+.btn-edit {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-save {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-print {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-query {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-back {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-forward {
+  background:#428bca url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+
+.btn-cancel {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  background:#fff url(../../customui/images/c_red.gif) no-repeat left;
+}
+.btn-cancel:hover,
+.btn-cancel:focus,
+.btn-cancel.focus,
+.btn-cancel:active,
+.btn-cancel.active,
+.open > .dropdown-toggle.btn-cancel {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-cancel:active,
+.btn-cancel.active,
+.open > .dropdown-toggle.btn-cancel {
+  background-image: none;
+}
+.btn-cancel.disabled,
+.btn-cancel[disabled],
+fieldset[disabled] .btn-cancel,
+.btn-cancel.disabled:hover,
+.btn-cancel[disabled]:hover,
+fieldset[disabled] .btn-cancel:hover,
+.btn-cancel.disabled:focus,
+.btn-cancel[disabled]:focus,
+fieldset[disabled] .btn-cancel:focus,
+.btn-cancel.disabled.focus,
+.btn-cancel[disabled].focus,
+fieldset[disabled] .btn-cancel.focus,
+.btn-cancel.disabled:active,
+.btn-cancel[disabled]:active,
+fieldset[disabled] .btn-cancel:active,
+.btn-cancel.disabled.active,
+.btn-cancel[disabled].active,
+fieldset[disabled] .btn-cancel.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-cancel .badge {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  background:#f0ad4e url(../../customui/images/xg_icon_on.gif) no-repeat left;
+}
+.btn-delete:hover,
+.btn-delete:focus,
+.btn-delete.focus,
+.btn-delete:active,
+.btn-delete.active,
+.open > .dropdown-toggle.btn-delete {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-delete:active,
+.btn-delete.active,
+.open > .dropdown-toggle.btn-delete {
+  background-image: none;
+}
+.btn-delete.disabled,
+.btn-delete[disabled],
+fieldset[disabled] .btn-delete,
+.btn-delete.disabled:hover,
+.btn-delete[disabled]:hover,
+fieldset[disabled] .btn-delete:hover,
+.btn-delete.disabled:focus,
+.btn-delete[disabled]:focus,
+fieldset[disabled] .btn-delete:focus,
+.btn-delete.disabled.focus,
+.btn-delete[disabled].focus,
+fieldset[disabled] .btn-delete.focus,
+.btn-delete.disabled:active,
+.btn-delete[disabled]:active,
+fieldset[disabled] .btn-delete:active,
+.btn-delete.disabled.active,
+.btn-delete[disabled].active,
+fieldset[disabled] .btn-delete.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-delete .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+
+/* Input CSS */
+.input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+}
+
+.input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.input-sh {
+  width: 30%
+}
+
+.input-nm {
+  width: 50%
+}
+
+.input-ln {
+  width: 100%
+}

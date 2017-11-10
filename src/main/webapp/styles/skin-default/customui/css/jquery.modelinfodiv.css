@@ -1,0 +1,10 @@
+.modelinfodiv{
+    background:#008D00;
+}
+.modelinfodiv span{font-size:16px;display:inline-block; color:#333; margin:0 5px; cursor:pointer;}
+.modelinfodiv .on{color:#ffffff;}
+
+.modelinfodiv .content{
+    color: #fff;
+    padding-left: 5px;
+}

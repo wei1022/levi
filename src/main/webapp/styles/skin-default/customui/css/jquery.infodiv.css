@@ -1,0 +1,19 @@
+.infodiv{
+	background:#81489B;
+    color: #fff;
+}
+.infodiv .title{
+    color:#ffffff;
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+}
+.infodiv ul li{
+	float: left;
+	width:100%;
+	padding: 5px;
+}
+.infodiv a:link {text-decoration:none;color:#ffffff;}
+.infodiv a:visited {text-decoration:none;color:#ff0000;}
+.infodiv a:hover {text-decoration:underline;color:#ff0000;}
+.infodiv a:active {text-decoration:underline;}

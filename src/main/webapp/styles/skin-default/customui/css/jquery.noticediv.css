@@ -1,0 +1,21 @@
+.noticediv{
+    background:#2d89ef;
+    color: #fff;
+}
+.noticediv .title{
+	color:#ffffff;
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+}
+.noticediv .content{
+    padding: 5px;
+}
+.noticediv p{
+    float: left;
+    width:100%;
+}
+.noticediv a:link {text-decoration:none;color:#ffffff;}
+.noticediv a:visited {text-decoration:none;color:#ff0000;}
+.noticediv a:hover {text-decoration:underline;color:#ff0000;}
+.noticediv a:active {text-decoration:underline;}

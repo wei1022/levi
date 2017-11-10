@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:property-placeholder location="classpath:properties/db_connection.properties" />
+	<!-- 开发，测试环境数据连接池配置-->
+<!-- 	<beans profile="dev,qas">
+		<context:property-placeholder location="classpath:properties/db_connection.properties" />
+		<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+			<property name="driverClass" value="${connection.driver_class}" />
+			<property name="jdbcUrl" value="${connection.url}" />
+			<property name="user" value="${connection.username}" />
+			<property name="password" value="${connection.password}" />
+			<property name="minPoolSize" value="${minPoolSize}" />
+			<property name="acquireIncrement" value="${acquireIncrement}" />
+			<property name="maxPoolSize" value="${maxPoolSize}" />
+			<property name="maxIdleTime" value="${maxIdleTime}" />
+			<property name="maxStatements" value="${maxStatements}" />
+			<property name="idleConnectionTestPeriod" value="${idleConnectionTestPeriod}" />
+		</bean>
+	</beans> -->
+		<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+			<property name="driverClass" value="${connection.driver_class}" />
+			<property name="jdbcUrl" value="${connection.url}" />
+			<property name="user" value="${connection.username}" />
+			<property name="password" value="${connection.password}" />
+			<property name="minPoolSize" value="${minPoolSize}" />
+			<property name="acquireIncrement" value="${acquireIncrement}" />
+			<property name="maxPoolSize" value="${maxPoolSize}" />
+			<property name="maxIdleTime" value="${maxIdleTime}" />
+			<property name="maxStatements" value="${maxStatements}" />
+			<property name="idleConnectionTestPeriod" value="${idleConnectionTestPeriod}" />
+		</bean>
+	 
+	<!-- 仿真，生产环境数据源jndi配置
+	<beans profile="prd,simu">
+		<context:property-placeholder location="classpath:properties/jndi_connection.properties" />
+		<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+			<property name="jndiName">
+				<value>${jndiName}</value>
+			</property>
+		</bean>
+	</beans>
+	 -->
+</beans>
