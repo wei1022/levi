@@ -1,4 +1,4 @@
-package org.bit.pm.utils;
+package org.jbit.pm.utils;
 
 import java.io.UnsupportedEncodingException;
 

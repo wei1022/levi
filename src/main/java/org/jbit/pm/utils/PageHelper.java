@@ -22,7 +22,7 @@
 	THE SOFTWARE.
 */
 
-package org.bit.pm.utils;
+package org.jbit.pm.utils;
 
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.*;

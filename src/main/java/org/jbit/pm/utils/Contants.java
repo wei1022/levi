@@ -1,4 +1,4 @@
-package org.bit.pm.utils;
+package org.jbit.pm.utils;
 /***
  * 存储常量类
  * @author Administrator
